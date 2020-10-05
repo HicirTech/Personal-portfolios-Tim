@@ -13,7 +13,12 @@
     "minify": {
       "enabled": true,
       "renameLocals": true
-    },
-    "sourceMap": false
+    }
+  },
+  {
+    "outputFileName": "wwwroot/dist/main.min.js",
+    "inputFiles": [
+      "wwwroot/dist/main.js"
+    ]
   }
 ]

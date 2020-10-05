@@ -43,3 +43,5 @@ C:\Users\luoze\Documents\GitHub\Personal-portfolios-Tim\LambdaWebApp\obj\Debug\n
 C:\Users\luoze\Documents\GitHub\Personal-portfolios-Tim\LambdaWebApp\obj\Debug\netcoreapp3.1\LambdaWebApp.dll
 C:\Users\luoze\Documents\GitHub\Personal-portfolios-Tim\LambdaWebApp\obj\Debug\netcoreapp3.1\LambdaWebApp.pdb
 C:\Users\luoze\Documents\GitHub\Personal-portfolios-Tim\LambdaWebApp\obj\Debug\netcoreapp3.1\LambdaWebApp.genruntimeconfig.cache
+C:\Users\luoze\Documents\GitHub\Personal-portfolios-Tim\LambdaWebApp\bin\Debug\netcoreapp3.1\package-lock.json
+C:\Users\luoze\Documents\GitHub\Personal-portfolios-Tim\LambdaWebApp\bin\Debug\netcoreapp3.1\package.json
