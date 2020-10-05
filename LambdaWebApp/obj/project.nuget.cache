@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "9vt1+L6daPffzglctFGOCTrssTaeoo52mXYprOUiMBV+NH07JzJBbhVf3e9s60Rn3DXNbTUETtAr9R1xiLeMZg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\luoze\\Documents\\GitHub\\Personal-portfolios-Tim\\LambdaWebApp\\LambdaWebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\luoze\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.0.0\\amazon.lambda.apigatewayevents.2.0.0.nupkg.sha512",
+    "C:\\Users\\luoze\\.nuget\\packages\\amazon.lambda.applicationloadbalancerevents\\2.0.0\\amazon.lambda.applicationloadbalancerevents.2.0.0.nupkg.sha512",
+    "C:\\Users\\luoze\\.nuget\\packages\\amazon.lambda.aspnetcoreserver\\5.1.0\\amazon.lambda.aspnetcoreserver.5.1.0.nupkg.sha512",
+    "C:\\Users\\luoze\\.nuget\\packages\\amazon.lambda.core\\1.1.0\\amazon.lambda.core.1.1.0.nupkg.sha512",
+    "C:\\Users\\luoze\\.nuget\\packages\\amazon.lambda.logging.aspnetcore\\3.0.0\\amazon.lambda.logging.aspnetcore.3.0.0.nupkg.sha512",
+    "C:\\Users\\luoze\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.0.0\\amazon.lambda.serialization.systemtextjson.2.0.0.nupkg.sha512",
+    "C:\\Users\\luoze\\.nuget\\packages\\microsoft.extensions.configuration\\2.1.0\\microsoft.extensions.configuration.2.1.0.nupkg.sha512",
+    "C:\\Users\\luoze\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.1.0\\microsoft.extensions.configuration.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\luoze\\.nuget\\packages\\microsoft.extensions.configuration.binder\\2.1.0\\microsoft.extensions.configuration.binder.2.1.0.nupkg.sha512",
+    "C:\\Users\\luoze\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\luoze\\.nuget\\packages\\microsoft.extensions.logging\\2.1.0\\microsoft.extensions.logging.2.1.0.nupkg.sha512",
+    "C:\\Users\\luoze\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.1.0\\microsoft.extensions.logging.abstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\luoze\\.nuget\\packages\\microsoft.extensions.options\\2.1.0\\microsoft.extensions.options.2.1.0.nupkg.sha512",
+    "C:\\Users\\luoze\\.nuget\\packages\\microsoft.extensions.primitives\\2.1.0\\microsoft.extensions.primitives.2.1.0.nupkg.sha512",
+    "C:\\Users\\luoze\\.nuget\\packages\\system.memory\\4.5.0\\system.memory.4.5.0.nupkg.sha512",
+    "C:\\Users\\luoze\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.0\\system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
