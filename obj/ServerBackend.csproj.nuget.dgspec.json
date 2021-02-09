@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luoze\\Documents\\GitHub\\Personal-portfolios-Tim\\ServerBackend\\ServerBackend.csproj": {}
+    "C:\\Users\\luoze\\Documents\\GitHub\\Personal-portfolios-Tim\\ServerBackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luoze\\Documents\\GitHub\\Personal-portfolios-Tim\\ServerBackend\\ServerBackend.csproj": {
+    "C:\\Users\\luoze\\Documents\\GitHub\\Personal-portfolios-Tim\\ServerBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luoze\\Documents\\GitHub\\Personal-portfolios-Tim\\ServerBackend\\ServerBackend.csproj",
+        "projectUniqueName": "C:\\Users\\luoze\\Documents\\GitHub\\Personal-portfolios-Tim\\ServerBackend.csproj",
         "projectName": "ServerBackend",
-        "projectPath": "C:\\Users\\luoze\\Documents\\GitHub\\Personal-portfolios-Tim\\ServerBackend\\ServerBackend.csproj",
+        "projectPath": "C:\\Users\\luoze\\Documents\\GitHub\\Personal-portfolios-Tim\\ServerBackend.csproj",
         "packagesPath": "C:\\Users\\luoze\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luoze\\Documents\\GitHub\\Personal-portfolios-Tim\\ServerBackend\\obj\\",
+        "outputPath": "C:\\Users\\luoze\\Documents\\GitHub\\Personal-portfolios-Tim\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\luoze\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -61,6 +61,10 @@
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.10.9, )"
+            },
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [
