@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LjFbXJ5vJaDPNVhXrbJE9eH1WR2o7TnbPzho0UbJOsFrMXAM6NQ/i+zWCKq+3+cB9RCYAc6qQCNrhcxjCh9r7g==",
+  "dgSpecHash": "RC1Anccdiu4POTbL0Tw306Rdf9f+ltaeC1gX7PnW/N6TgWgxA4j3cY37NR7cTxPHzIMfoPE1pbw6CB+N+2BAew==",
   "success": true,
   "projectFilePath": "C:\\Users\\luoze\\Documents\\GitHub\\Personal-portfolios-Tim\\ServerBackend.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\luoze\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
     "C:\\Users\\luoze\\.nuget\\packages\\microsoft.aspnetcore.authorization.policy\\2.2.0\\microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",
     "C:\\Users\\luoze\\.nuget\\packages\\microsoft.aspnetcore.connections.abstractions\\2.2.0\\microsoft.aspnetcore.connections.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\luoze\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
     "C:\\Users\\luoze\\.nuget\\packages\\microsoft.aspnetcore.hosting.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\luoze\\.nuget\\packages\\microsoft.aspnetcore.hosting.server.abstractions\\2.2.0\\microsoft.aspnetcore.hosting.server.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\luoze\\.nuget\\packages\\microsoft.aspnetcore.http\\2.2.0\\microsoft.aspnetcore.http.2.2.0.nupkg.sha512",

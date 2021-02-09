@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
@@ -16,7 +17,7 @@ namespace ServerBackend
 {
     public class Startup
     {
-        private const  string CORS_NAME = "CorsPolicy";
+        private const string CORS_NAME = "CorsPolicy";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -33,25 +34,19 @@ namespace ServerBackend
             //{
             //    c.SwaggerDoc("v1", new OpenApiInfo { Title = "ServerBackend", Version = "v1" });
             //});
-            services.AddCors(options => options.AddPolicy(CORS_NAME, builder =>
-            {
-                builder
-                    .AllowAnyMethod()
-                    .AllowAnyHeader()
-                   .WithOrigins("http://localhost:3000")
-                   .AllowCredentials();
-                
-            }));
+            services.AddCors();
+
+
+
             services.AddSignalR();
-       
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
 
-            app.UseCors(CORS_NAME);
-
+            app.UseCors(x => x.SetIsOriginAllowed(_ => true).AllowAnyHeader().AllowAnyMethod().AllowCredentials());
 
             //if (env.IsDevelopment())
             //{
@@ -68,6 +63,7 @@ namespace ServerBackend
 
             app.UseEndpoints(endpoints =>
             {
+                
                 endpoints.MapHub<LoginChecker>("/loginChecker");
             });
         }
