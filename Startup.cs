@@ -46,7 +46,7 @@ namespace ServerBackend
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
 
-            app.UseCors(x => x.SetIsOriginAllowed(_ => true).AllowAnyHeader().AllowAnyMethod().AllowCredentials());
+            app.UseCors(x => x.WithOrigins("https://localhost:3000/","https://timprofilefront.herokuapp.com").AllowAnyHeader().AllowAnyMethod().AllowCredentials());
 
             //if (env.IsDevelopment())
             //{
@@ -63,7 +63,7 @@ namespace ServerBackend
 
             app.UseEndpoints(endpoints =>
             {
-                
+
                 endpoints.MapHub<LoginChecker>("/loginChecker");
             });
         }
